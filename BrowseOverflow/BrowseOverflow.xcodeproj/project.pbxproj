@@ -9,12 +9,11 @@
 /* Begin PBXBuildFile section */
 		88E0AC2121387347000DAD67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E0AC2021387347000DAD67 /* main.m */; };
 		88E0AC2421387347000DAD67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E0AC2321387347000DAD67 /* AppDelegate.m */; };
-		88E0AC2721387347000DAD67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E0AC2621387347000DAD67 /* ViewController.m */; };
 		88E0AC2A21387347000DAD67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88E0AC2821387347000DAD67 /* Main.storyboard */; };
 		88E0AC2C21387347000DAD67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88E0AC2B21387347000DAD67 /* Assets.xcassets */; };
 		88E0AC2F21387347000DAD67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88E0AC2D21387347000DAD67 /* LaunchScreen.storyboard */; };
-		88E0AC3A21387348000DAD67 /* BrowseOverflowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E0AC3921387348000DAD67 /* BrowseOverflowTests.m */; };
 		88E0AC4521387348000DAD67 /* BrowseOverflowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E0AC4421387348000DAD67 /* BrowseOverflowUITests.m */; };
+		88E0AC54213876F9000DAD67 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E0AC53213876F9000DAD67 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,18 +38,17 @@
 		88E0AC2021387347000DAD67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		88E0AC2221387347000DAD67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		88E0AC2321387347000DAD67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		88E0AC2521387347000DAD67 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		88E0AC2621387347000DAD67 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		88E0AC2921387347000DAD67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88E0AC2B21387347000DAD67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88E0AC2E21387347000DAD67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88E0AC3021387347000DAD67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88E0AC3521387348000DAD67 /* BrowseOverflowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrowseOverflowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		88E0AC3921387348000DAD67 /* BrowseOverflowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrowseOverflowTests.m; sourceTree = "<group>"; };
 		88E0AC3B21387348000DAD67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88E0AC4021387348000DAD67 /* BrowseOverflowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrowseOverflowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88E0AC4421387348000DAD67 /* BrowseOverflowUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrowseOverflowUITests.m; sourceTree = "<group>"; };
 		88E0AC4621387348000DAD67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88E0AC52213876F9000DAD67 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		88E0AC53213876F9000DAD67 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +101,8 @@
 			children = (
 				88E0AC2221387347000DAD67 /* AppDelegate.h */,
 				88E0AC2321387347000DAD67 /* AppDelegate.m */,
-				88E0AC2521387347000DAD67 /* ViewController.h */,
-				88E0AC2621387347000DAD67 /* ViewController.m */,
+				88E0AC52213876F9000DAD67 /* TableViewController.h */,
+				88E0AC53213876F9000DAD67 /* TableViewController.m */,
 				88E0AC2821387347000DAD67 /* Main.storyboard */,
 				88E0AC2B21387347000DAD67 /* Assets.xcassets */,
 				88E0AC2D21387347000DAD67 /* LaunchScreen.storyboard */,
@@ -125,7 +123,6 @@
 		88E0AC3821387348000DAD67 /* BrowseOverflowTests */ = {
 			isa = PBXGroup;
 			children = (
-				88E0AC3921387348000DAD67 /* BrowseOverflowTests.m */,
 				88E0AC3B21387348000DAD67 /* Info.plist */,
 			);
 			path = BrowseOverflowTests;
@@ -276,8 +273,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88E0AC2721387347000DAD67 /* ViewController.m in Sources */,
 				88E0AC2421387347000DAD67 /* AppDelegate.m in Sources */,
+				88E0AC54213876F9000DAD67 /* TableViewController.m in Sources */,
 				88E0AC2121387347000DAD67 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,7 +283,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88E0AC3A21387348000DAD67 /* BrowseOverflowTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
