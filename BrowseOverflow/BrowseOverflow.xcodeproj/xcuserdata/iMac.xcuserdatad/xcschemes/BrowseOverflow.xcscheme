@@ -38,16 +38,6 @@
                ReferencedContainer = "container:BrowseOverflow.xcodeproj">
             </BuildableReference>
          </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "88E0AC3F21387348000DAD67"
-               BuildableName = "BrowseOverflowUITests.xctest"
-               BlueprintName = "BrowseOverflowUITests"
-               ReferencedContainer = "container:BrowseOverflow.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

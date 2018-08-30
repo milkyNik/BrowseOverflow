@@ -14,6 +14,9 @@
 		88E0AC2F21387347000DAD67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88E0AC2D21387347000DAD67 /* LaunchScreen.storyboard */; };
 		88E0AC4521387348000DAD67 /* BrowseOverflowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E0AC4421387348000DAD67 /* BrowseOverflowUITests.m */; };
 		88E0AC54213876F9000DAD67 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E0AC53213876F9000DAD67 /* TableViewController.m */; };
+		88E0AC56213879B9000DAD67 /* TopicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E0AC55213879B9000DAD67 /* TopicTests.m */; };
+		88E0AC5921387BB7000DAD67 /* Topic.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E0AC5821387BB7000DAD67 /* Topic.m */; };
+		88E0AC5A21387BB7000DAD67 /* Topic.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E0AC5821387BB7000DAD67 /* Topic.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		88E0AC4621387348000DAD67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88E0AC52213876F9000DAD67 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		88E0AC53213876F9000DAD67 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		88E0AC55213879B9000DAD67 /* TopicTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TopicTests.m; path = ../TopicTests.m; sourceTree = "<group>"; };
+		88E0AC5721387BB7000DAD67 /* Topic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Topic.h; path = Model/Topic.h; sourceTree = "<group>"; };
+		88E0AC5821387BB7000DAD67 /* Topic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Topic.m; path = Model/Topic.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 		88E0AC1E21387347000DAD67 /* BrowseOverflow */ = {
 			isa = PBXGroup;
 			children = (
+				88E0AC5B21387BC5000DAD67 /* Model */,
 				88E0AC2221387347000DAD67 /* AppDelegate.h */,
 				88E0AC2321387347000DAD67 /* AppDelegate.m */,
 				88E0AC52213876F9000DAD67 /* TableViewController.h */,
@@ -123,6 +130,7 @@
 		88E0AC3821387348000DAD67 /* BrowseOverflowTests */ = {
 			isa = PBXGroup;
 			children = (
+				88E0AC55213879B9000DAD67 /* TopicTests.m */,
 				88E0AC3B21387348000DAD67 /* Info.plist */,
 			);
 			path = BrowseOverflowTests;
@@ -135,6 +143,15 @@
 				88E0AC4621387348000DAD67 /* Info.plist */,
 			);
 			path = BrowseOverflowUITests;
+			sourceTree = "<group>";
+		};
+		88E0AC5B21387BC5000DAD67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				88E0AC5721387BB7000DAD67 /* Topic.h */,
+				88E0AC5821387BB7000DAD67 /* Topic.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88E0AC2421387347000DAD67 /* AppDelegate.m in Sources */,
+				88E0AC5921387BB7000DAD67 /* Topic.m in Sources */,
 				88E0AC54213876F9000DAD67 /* TableViewController.m in Sources */,
 				88E0AC2121387347000DAD67 /* main.m in Sources */,
 			);
@@ -283,6 +301,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88E0AC56213879B9000DAD67 /* TopicTests.m in Sources */,
+				88E0AC5A21387BB7000DAD67 /* Topic.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
