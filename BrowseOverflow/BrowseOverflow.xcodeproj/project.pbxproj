@@ -10,6 +10,10 @@
 		887B6A912139B51F002B39F7 /* QuestionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 887B6A902139B51F002B39F7 /* QuestionsTests.m */; };
 		887B6A942139B5F2002B39F7 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 887B6A932139B5F2002B39F7 /* Question.m */; };
 		887B6A952139B5F2002B39F7 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 887B6A932139B5F2002B39F7 /* Question.m */; };
+		887B6A972139BC6D002B39F7 /* PersonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 887B6A962139BC6D002B39F7 /* PersonTests.m */; };
+		887B6A9A2139BC92002B39F7 /* TopicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 887B6A982139BC92002B39F7 /* TopicTests.m */; };
+		887B6A9D2139BE7D002B39F7 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 887B6A9C2139BE7D002B39F7 /* Person.m */; };
+		887B6A9E2139BE7D002B39F7 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 887B6A9C2139BE7D002B39F7 /* Person.m */; };
 		88E0AC2121387347000DAD67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E0AC2021387347000DAD67 /* main.m */; };
 		88E0AC2421387347000DAD67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E0AC2321387347000DAD67 /* AppDelegate.m */; };
 		88E0AC2A21387347000DAD67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88E0AC2821387347000DAD67 /* Main.storyboard */; };
@@ -17,7 +21,6 @@
 		88E0AC2F21387347000DAD67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88E0AC2D21387347000DAD67 /* LaunchScreen.storyboard */; };
 		88E0AC4521387348000DAD67 /* BrowseOverflowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E0AC4421387348000DAD67 /* BrowseOverflowUITests.m */; };
 		88E0AC54213876F9000DAD67 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E0AC53213876F9000DAD67 /* TableViewController.m */; };
-		88E0AC56213879B9000DAD67 /* TopicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E0AC55213879B9000DAD67 /* TopicTests.m */; };
 		88E0AC5921387BB7000DAD67 /* Topic.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E0AC5821387BB7000DAD67 /* Topic.m */; };
 		88E0AC5A21387BB7000DAD67 /* Topic.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E0AC5821387BB7000DAD67 /* Topic.m */; };
 /* End PBXBuildFile section */
@@ -43,6 +46,10 @@
 		887B6A902139B51F002B39F7 /* QuestionsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionsTests.m; sourceTree = "<group>"; };
 		887B6A922139B5F2002B39F7 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Question.h; path = Model/Question.h; sourceTree = "<group>"; };
 		887B6A932139B5F2002B39F7 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Question.m; path = Model/Question.m; sourceTree = "<group>"; };
+		887B6A962139BC6D002B39F7 /* PersonTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonTests.m; sourceTree = "<group>"; };
+		887B6A982139BC92002B39F7 /* TopicTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicTests.m; sourceTree = "<group>"; };
+		887B6A9B2139BE7D002B39F7 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = Model/Person.h; sourceTree = "<group>"; };
+		887B6A9C2139BE7D002B39F7 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = Model/Person.m; sourceTree = "<group>"; };
 		88E0AC1C21387347000DAD67 /* BrowseOverflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrowseOverflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88E0AC2021387347000DAD67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		88E0AC2221387347000DAD67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,7 +65,6 @@
 		88E0AC4621387348000DAD67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88E0AC52213876F9000DAD67 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		88E0AC53213876F9000DAD67 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
-		88E0AC55213879B9000DAD67 /* TopicTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TopicTests.m; path = ../TopicTests.m; sourceTree = "<group>"; };
 		88E0AC5721387BB7000DAD67 /* Topic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Topic.h; path = Model/Topic.h; sourceTree = "<group>"; };
 		88E0AC5821387BB7000DAD67 /* Topic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Topic.m; path = Model/Topic.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -136,8 +142,9 @@
 		88E0AC3821387348000DAD67 /* BrowseOverflowTests */ = {
 			isa = PBXGroup;
 			children = (
+				887B6A962139BC6D002B39F7 /* PersonTests.m */,
 				887B6A902139B51F002B39F7 /* QuestionsTests.m */,
-				88E0AC55213879B9000DAD67 /* TopicTests.m */,
+				887B6A982139BC92002B39F7 /* TopicTests.m */,
 				88E0AC3B21387348000DAD67 /* Info.plist */,
 			);
 			path = BrowseOverflowTests;
@@ -159,6 +166,8 @@
 				88E0AC5821387BB7000DAD67 /* Topic.m */,
 				887B6A922139B5F2002B39F7 /* Question.h */,
 				887B6A932139B5F2002B39F7 /* Question.m */,
+				887B6A9B2139BE7D002B39F7 /* Person.h */,
+				887B6A9C2139BE7D002B39F7 /* Person.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -300,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88E0AC2421387347000DAD67 /* AppDelegate.m in Sources */,
+				887B6A9D2139BE7D002B39F7 /* Person.m in Sources */,
 				88E0AC5921387BB7000DAD67 /* Topic.m in Sources */,
 				887B6A942139B5F2002B39F7 /* Question.m in Sources */,
 				88E0AC54213876F9000DAD67 /* TableViewController.m in Sources */,
@@ -311,10 +321,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				887B6A9E2139BE7D002B39F7 /* Person.m in Sources */,
 				887B6A912139B51F002B39F7 /* QuestionsTests.m in Sources */,
+				887B6A9A2139BC92002B39F7 /* TopicTests.m in Sources */,
 				887B6A952139B5F2002B39F7 /* Question.m in Sources */,
-				88E0AC56213879B9000DAD67 /* TopicTests.m in Sources */,
 				88E0AC5A21387BB7000DAD67 /* Topic.m in Sources */,
+				887B6A972139BC6D002B39F7 /* PersonTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
