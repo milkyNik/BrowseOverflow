@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31ADD9A89D976AD9AC28F78A /* libPods-BrowseOverflowTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 294A931B57B54354A2BBB32F /* libPods-BrowseOverflowTests.a */; };
+		6E27466D7503DABC0A9E34B8 /* libPods-BrowseOverflowUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CAAC057C6097B603EC3EBA0 /* libPods-BrowseOverflowUITests.a */; };
+		7B021FA8626BAB83577DD01B /* libPods-BrowseOverflow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22ED1B664397EF3713A3C460 /* libPods-BrowseOverflow.a */; };
 		8855C9F7213DBCD500D4D3FB /* AnswerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8855C9F6213DBCD500D4D3FB /* AnswerTests.m */; };
 		8855C9FA213DC05800D4D3FB /* Answer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8855C9F9213DC05800D4D3FB /* Answer.m */; };
 		8855C9FB213DC05800D4D3FB /* Answer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8855C9F9213DC05800D4D3FB /* Answer.m */; };
@@ -46,6 +49,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1ACA70747994DEFCDCBF568F /* Pods-BrowseOverflowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrowseOverflowTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BrowseOverflowTests/Pods-BrowseOverflowTests.debug.xcconfig"; sourceTree = "<group>"; };
+		22ED1B664397EF3713A3C460 /* libPods-BrowseOverflow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BrowseOverflow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		294A931B57B54354A2BBB32F /* libPods-BrowseOverflowTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BrowseOverflowTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4032F55E122485DDDC1F5E5C /* Pods-BrowseOverflowUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrowseOverflowUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BrowseOverflowUITests/Pods-BrowseOverflowUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4DDE179E532D718890B45629 /* Pods-BrowseOverflowUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrowseOverflowUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BrowseOverflowUITests/Pods-BrowseOverflowUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7CAAC057C6097B603EC3EBA0 /* libPods-BrowseOverflowUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BrowseOverflowUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8855C9F6213DBCD500D4D3FB /* AnswerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerTests.m; sourceTree = "<group>"; };
 		8855C9F8213DC05800D4D3FB /* Answer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Answer.h; path = Model/Answer.h; sourceTree = "<group>"; };
 		8855C9F9213DC05800D4D3FB /* Answer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Answer.m; path = Model/Answer.m; sourceTree = "<group>"; };
@@ -73,6 +82,9 @@
 		88E0AC53213876F9000DAD67 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		88E0AC5721387BB7000DAD67 /* Topic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Topic.h; path = Model/Topic.h; sourceTree = "<group>"; };
 		88E0AC5821387BB7000DAD67 /* Topic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Topic.m; path = Model/Topic.m; sourceTree = "<group>"; };
+		895936C529DD943DB9485D93 /* Pods-BrowseOverflowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrowseOverflowTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BrowseOverflowTests/Pods-BrowseOverflowTests.release.xcconfig"; sourceTree = "<group>"; };
+		924798B4CAF1146A1C20FD5F /* Pods-BrowseOverflow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrowseOverflow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BrowseOverflow/Pods-BrowseOverflow.debug.xcconfig"; sourceTree = "<group>"; };
+		D26E8BF2CA4DFB71AF0BC7B0 /* Pods-BrowseOverflow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrowseOverflow.release.xcconfig"; path = "Pods/Target Support Files/Pods-BrowseOverflow/Pods-BrowseOverflow.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B021FA8626BAB83577DD01B /* libPods-BrowseOverflow.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31ADD9A89D976AD9AC28F78A /* libPods-BrowseOverflowTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,12 +108,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E27466D7503DABC0A9E34B8 /* libPods-BrowseOverflowUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D40F1917968FD57B30CBA1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22ED1B664397EF3713A3C460 /* libPods-BrowseOverflow.a */,
+				294A931B57B54354A2BBB32F /* libPods-BrowseOverflowTests.a */,
+				7CAAC057C6097B603EC3EBA0 /* libPods-BrowseOverflowUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		473FB31178FE074CD46F041F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				924798B4CAF1146A1C20FD5F /* Pods-BrowseOverflow.debug.xcconfig */,
+				D26E8BF2CA4DFB71AF0BC7B0 /* Pods-BrowseOverflow.release.xcconfig */,
+				1ACA70747994DEFCDCBF568F /* Pods-BrowseOverflowTests.debug.xcconfig */,
+				895936C529DD943DB9485D93 /* Pods-BrowseOverflowTests.release.xcconfig */,
+				4032F55E122485DDDC1F5E5C /* Pods-BrowseOverflowUITests.debug.xcconfig */,
+				4DDE179E532D718890B45629 /* Pods-BrowseOverflowUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		88E0AC1321387347000DAD67 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +145,8 @@
 				88E0AC3821387348000DAD67 /* BrowseOverflowTests */,
 				88E0AC4321387348000DAD67 /* BrowseOverflowUITests */,
 				88E0AC1D21387347000DAD67 /* Products */,
+				473FB31178FE074CD46F041F /* Pods */,
+				3D40F1917968FD57B30CBA1C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -188,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88E0AC4921387348000DAD67 /* Build configuration list for PBXNativeTarget "BrowseOverflow" */;
 			buildPhases = (
+				FB5385F783A836ABDBFB2E10 /* [CP] Check Pods Manifest.lock */,
 				88E0AC1821387347000DAD67 /* Sources */,
 				88E0AC1921387347000DAD67 /* Frameworks */,
 				88E0AC1A21387347000DAD67 /* Resources */,
+				059F70F49123955939E6A0D2 /* [CP] Embed Pods Frameworks */,
+				4B44959D729C6AB7D66E665A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -205,9 +248,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88E0AC4C21387348000DAD67 /* Build configuration list for PBXNativeTarget "BrowseOverflowTests" */;
 			buildPhases = (
+				72AF85F9A8D731323A63BDAE /* [CP] Check Pods Manifest.lock */,
 				88E0AC3121387348000DAD67 /* Sources */,
 				88E0AC3221387348000DAD67 /* Frameworks */,
 				88E0AC3321387348000DAD67 /* Resources */,
+				032DB710EFE79994A305EB71 /* [CP] Embed Pods Frameworks */,
+				A91AD76455DE86943550F54F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -223,9 +269,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88E0AC4F21387348000DAD67 /* Build configuration list for PBXNativeTarget "BrowseOverflowUITests" */;
 			buildPhases = (
+				ACD4C9C6DAB63B8D470A0B4F /* [CP] Check Pods Manifest.lock */,
 				88E0AC3C21387348000DAD67 /* Sources */,
 				88E0AC3D21387348000DAD67 /* Frameworks */,
 				88E0AC3E21387348000DAD67 /* Resources */,
+				6F283F5E576665CE489E2D5D /* [CP] Embed Pods Frameworks */,
+				A24D92D358EAE5B0469A6323 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -311,6 +360,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		032DB710EFE79994A305EB71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BrowseOverflowTests/Pods-BrowseOverflowTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		059F70F49123955939E6A0D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BrowseOverflow/Pods-BrowseOverflow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B44959D729C6AB7D66E665A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BrowseOverflow/Pods-BrowseOverflow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F283F5E576665CE489E2D5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BrowseOverflowUITests/Pods-BrowseOverflowUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72AF85F9A8D731323A63BDAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A24D92D358EAE5B0469A6323 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BrowseOverflowUITests/Pods-BrowseOverflowUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A91AD76455DE86943550F54F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BrowseOverflowTests/Pods-BrowseOverflowTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACD4C9C6DAB63B8D470A0B4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FB5385F783A836ABDBFB2E10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		88E0AC1821387347000DAD67 /* Sources */ = {
@@ -477,6 +664,7 @@
 		};
 		88E0AC4A21387348000DAD67 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 924798B4CAF1146A1C20FD5F /* Pods-BrowseOverflow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9SV659AMF3;
@@ -490,6 +678,7 @@
 		};
 		88E0AC4B21387348000DAD67 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D26E8BF2CA4DFB71AF0BC7B0 /* Pods-BrowseOverflow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9SV659AMF3;
@@ -503,6 +692,7 @@
 		};
 		88E0AC4D21387348000DAD67 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ACA70747994DEFCDCBF568F /* Pods-BrowseOverflowTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 9SV659AMF3;
@@ -516,6 +706,7 @@
 		};
 		88E0AC4E21387348000DAD67 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 895936C529DD943DB9485D93 /* Pods-BrowseOverflowTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 9SV659AMF3;
@@ -529,6 +720,7 @@
 		};
 		88E0AC5021387348000DAD67 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4032F55E122485DDDC1F5E5C /* Pods-BrowseOverflowUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 9SV659AMF3;
 				INFOPLIST_FILE = BrowseOverflowUITests/Info.plist;
@@ -541,6 +733,7 @@
 		};
 		88E0AC5121387348000DAD67 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DDE179E532D718890B45629 /* Pods-BrowseOverflowUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 9SV659AMF3;
 				INFOPLIST_FILE = BrowseOverflowUITests/Info.plist;
